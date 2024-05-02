@@ -22,7 +22,7 @@ def create_prompt(messages):
     )
 
 ## Streamlit UI
-st.title('Langchain Demo With LLAMA2 API')
+st.title('Langchain Demo With LLAMA3 API')
 input_text = st.text_input("Search the topic you want", key="query")
 
 # Initialize LLAMA model

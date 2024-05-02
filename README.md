@@ -38,3 +38,19 @@ This repository contains two main components:
    ```bash
    [git clone https://github.com/yourusername/langchain-dual-mode-chatbot.git](https://github.com/nani2357/chatbot_using_langchain_and_ollama.git)
    cd langchain-dual-mode-chatbot
+
+   ## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+
+
+## To run the OpenAI-based chatbot:
+```bash
+streamlit run app.py
+
+
+## To run the LLAMA3 local chatbot:
+```bash
+streamlit lama_app.py
+

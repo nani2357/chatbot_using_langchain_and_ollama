@@ -46,11 +46,9 @@ pip install -r requirements.txt
 
 
 ## To run the OpenAI-based chatbot:
-```bash
 streamlit run app.py
 
 
 ## To run the LLAMA3 local chatbot:
-```bash
 streamlit lama_app.py
 
